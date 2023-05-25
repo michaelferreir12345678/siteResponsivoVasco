@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Exercicio mod 13</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <div>
+                    <h1>Vasco da Gama</h1>
+                    <h5>A historia mais bonita do futebol</h5>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav nav nav-pills">
+                        <li class="nav-item"><a class="nav-link active" href="#carousel-imgs">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#historia-clube">Historia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cards-noticias">Noticias</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <section id="carousel-imgs">
+        <div id="carousel-vasco" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="4000" class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://vasconoticias.com.br/wp-content/uploads/2021/05/vasco-respeito-e-igualdade.jpg"
+                        alt="Vasco da gama - Nao ao racismo">
+                    <div class="carousel-caption">
+                        <h3>NÃO AO RACISMO!!!</h3>
+                        <P>Estamos juntos nessa luta Vini Jr.</P>
+                    </div>
+                </div>
+
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://media.vasco.com.br/media/2023/05/A4A502D2-E940-4B73-9A26-05F8CA70E156-scaled.jpeg"
+                        alt="vasco da gama sub20 campeao">
+                    <div class="carousel-caption">
+                        <h3>CAMPEÃO INVICTO</h3>
+                        <P>SUB-20 vence o Flamengo por 2 a 0 e conquista a taça Guanabara</P>
+                    </div>
+                </div>
+
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="https://media.vasco.com.br/media/2023/05/PeleDina.png"
+                        alt="Vasco da gama -vasco e pele - camisa 10 eternos">
+                    <div class="carousel-caption">
+                        <h3>#10ETERNOS</h3>
+                        <P>Vasco e Santos se unem para homenagem aos ídolos Roberto Dinamite e Pelé</P>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-vasco" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-vasco" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-vasco" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-vasco" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-vasco" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="historia-clube">
+        <div class="container">
+            <img src="https://vascaino.net/wp-content/uploads/2021/12/image-768x495.jpg.webp" alt="">
+            <div class="history">
+                <h2>Historia</h2>
+                <p>O Clube de Regatas Vasco da Gama foi fundado em 1898 no Rio de Janeiro, Brasil. Com quatro títulos do
+                    Campeonato Brasileiro, uma Copa Libertadores e um Campeonato Sul-Americano, o Vasco é um dos clubes
+                    mais importantes do país. Em 1924, tornou-se o primeiro clube a escalar um jogador negro, Leônidas
+                    da Silva. O estádio São Januário, inaugurado em 1927, é sua casa e cenário de glórias. Apesar de
+                    alguns rebaixamentos recentes, a torcida vascaína segue fiel e esperançosa por um retorno
+                    triunfante. Além do futebol, o Vasco também tem destaque em remo, basquete e vôlei.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards-noticias">
+        <div class="container">
+            <h2>Noticias</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <article class="card text-bg-dark">
+                        <img class="" src="./images/lucas-piton.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Lucas Piton é pré-convocado pela seleção italiana para o Final Four
+                                da Liga das Nações</h4>
+                            <p class="card-text">
+                                O lateral-esquerdo do Vasco Lucas Piton foi pré-convocado pela Seleção da Itália para o
+                                Final Four da Liga das Nações da UEFA, na Holanda, para a semifinal diante da Espanha,
+                                no dia 15 de junho, e para uma possível final ou decisão de terceiro lugar, no dia 18 de
+                                junho.
+                            </p>
+                            <a href="https://vasco.com.br/lucas-piton-e-pre-convocado-pela-selecao-italiana-para-o-final-four-da-liga-das-nacoes/"
+                                class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>                    
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <article class="card text-bg-dark b-16 p-16">
+                        <img class="" src="./images/lucas-piton.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Lucas Piton é pré-convocado pela seleção italiana para o Final Four
+                                da Liga das Nações</h4>
+                            <p class="card-text">
+                                O lateral-esquerdo do Vasco Lucas Piton foi pré-convocado pela Seleção da Itália para o
+                                Final Four da Liga das Nações da UEFA, na Holanda, para a semifinal diante da Espanha,
+                                no dia 15 de junho, e para uma possível final ou decisão de terceiro lugar, no dia 18 de
+                                junho.
+                            </p>
+                            <a href="https://vasco.com.br/lucas-piton-e-pre-convocado-pela-selecao-italiana-para-o-final-four-da-liga-das-nacoes/"
+                                class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>                    
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6 b-16">
+                    <article class="card text-bg-dark">
+                        <img class="" src="./images/lucas-piton.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Lucas Piton é pré-convocado pela seleção italiana para o Final Four
+                                da Liga das Nações</h4>
+                            <p class="card-text">
+                                O lateral-esquerdo do Vasco Lucas Piton foi pré-convocado pela Seleção da Itália para o
+                                Final Four da Liga das Nações da UEFA, na Holanda, para a semifinal diante da Espanha,
+                                no dia 15 de junho, e para uma possível final ou decisão de terceiro lugar, no dia 18 de
+                                junho.
+                            </p>
+                            <a href="https://vasco.com.br/lucas-piton-e-pre-convocado-pela-selecao-italiana-para-o-final-four-da-liga-das-nacoes/"
+                                class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <article class="card text-bg-dark">
+                        <img class="" src="./images/lucas-piton.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Lucas Piton é pré-convocado pela seleção italiana para o Final Four
+                                da Liga das Nações</h4>
+                            <p class="card-text">
+                                O lateral-esquerdo do Vasco Lucas Piton foi pré-convocado pela Seleção da Itália para o
+                                Final Four da Liga das Nações da UEFA, na Holanda, para a semifinal diante da Espanha,
+                                no dia 15 de junho, e para uma possível final ou decisão de terceiro lugar, no dia 18 de
+                                junho.
+                            </p>
+                            <a href="https://vasco.com.br/lucas-piton-e-pre-convocado-pela-selecao-italiana-para-o-final-four-da-liga-das-nacoes/"
+                                class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>                    
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <article class="card text-bg-dark b-16 p-16">
+                        <img class="" src="./images/lucas-piton.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Lucas Piton é pré-convocado pela seleção italiana para o Final Four
+                                da Liga das Nações</h4>
+                            <p class="card-text">
+                                O lateral-esquerdo do Vasco Lucas Piton foi pré-convocado pela Seleção da Itália para o
+                                Final Four da Liga das Nações da UEFA, na Holanda, para a semifinal diante da Espanha,
+                                no dia 15 de junho, e para uma possível final ou decisão de terceiro lugar, no dia 18 de
+                                junho.
+                            </p>
+                            <a href="https://vasco.com.br/lucas-piton-e-pre-convocado-pela-selecao-italiana-para-o-final-four-da-liga-das-nacoes/"
+                                class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>                    
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6 b-16">
+                    <article class="card text-bg-dark">
+                        <img class="" src="./images/lucas-piton.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Lucas Piton é pré-convocado pela seleção italiana para o Final Four
+                                da Liga das Nações</h4>
+                            <p class="card-text">
+                                O lateral-esquerdo do Vasco Lucas Piton foi pré-convocado pela Seleção da Itália para o
+                                Final Four da Liga das Nações da UEFA, na Holanda, para a semifinal diante da Espanha,
+                                no dia 15 de junho, e para uma possível final ou decisão de terceiro lugar, no dia 18 de
+                                junho.
+                            </p>
+                            <a href="https://vasco.com.br/lucas-piton-e-pre-convocado-pela-selecao-italiana-para-o-final-four-da-liga-das-nacoes/"
+                                class="btn btn-primary">Leia mais</a>
+                        </div>
+                    </article>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

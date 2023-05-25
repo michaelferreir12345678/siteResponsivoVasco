@@ -1,0 +1,118 @@
+header h1{
+    font-weight: bold;
+}
+
+.carousel-inner{
+    /* max-height: 600px; */
+    padding: 16px 0
+}
+
+.carousel-inner img{
+    height: 50vh;
+}
+
+.carousel-item h3{
+    font-size: 50px;
+    font-weight: bold;
+    /* background-color: rgba(0, 0, 0, 0.77); */
+
+}
+
+.carousel-item p{
+    font-size: 20px;
+    /* background-color: rgba(0, 0, 0, 0.77); */
+
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+section{
+    padding: 32px 0;
+}
+
+#historia-clube .container{
+    display: flex;
+    padding: 32px 16px;
+}
+
+.container h2{
+    font-size: 38px ;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.container p{
+    font-size: 22px;
+}
+
+#historia-clube .container img{
+    margin-right: 22px;
+}
+
+.col-sm-12 {
+    padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #historia-clube .container{
+        display: block;
+        padding: 32px 16px;
+    }
+    
+    .container h2{
+        font-size: 38px ;
+        font-weight: bold;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+    
+    .container p{
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    #historia-clube .container img{
+        margin-right: 0px;
+        padding-bottom: 32px;
+    }
+
+    .col-sm-12 {
+        padding-bottom: 32px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    #historia-clube .container{
+        display: block;
+        padding: 32px 16px;
+    }
+    
+    .container h2{
+        font-size: 38px ;
+        font-weight: bold;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+    
+    .container p{
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    #historia-clube .container img{
+        margin-right: 0px;
+        padding-bottom: 32px;
+        width: 90%;
+        margin-left: 24px;
+    }
+
+    .col-sm-12 {
+        padding-bottom: 32px;
+    }
+    
+}
